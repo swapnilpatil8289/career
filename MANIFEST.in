@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include career *.css
+recursive-include career *.csv
+recursive-include career *.html
+recursive-include career *.ico
+recursive-include career *.js
+recursive-include career *.json
+recursive-include career *.md
+recursive-include career *.png
+recursive-include career *.py
+recursive-include career *.svg
+recursive-include career *.txt
+recursive-exclude career *.pyc
